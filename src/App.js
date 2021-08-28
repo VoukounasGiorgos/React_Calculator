@@ -20,6 +20,7 @@ const App = () => {
             setResult(eval(result).toString());
         } catch(err) {
             setResult("Error")
+            
         }        
     }
 
